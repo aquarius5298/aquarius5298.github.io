@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+    <script>
+        // //console.log("Hello World")
+        // //String - chuoi
+        // // var name
+        // // name="Nguyen Van A";
+
+        // // var user = "Nguyen Van B"
+        // // console.log(name)
+        // // console.log(user)
+
+        // // console.log(typeof name)
+        // // console.log(typeof user)
+
+        // var fristname = "Bui "
+        // var lastname = "Minh"
+        // // var fullname = fristname + lastname
+        // // console.log(fullname)
+        // // Kiem tra do dai cua chuoi - lenght
+        // // var lenghtfullname = fullname.length
+        // // console.log(lenghtfullname)
+        // //Method cua string
+        // // concat - Cong chuoi
+        // var fullname = fristname.concat(" ", lastname, " rat dep trai")
+        // console.log(fullname);
+        // // toUpperCase dung de in hoa
+        // console.log(fullname.toUpperCase())
+        // // toLowerCase dung de in thuong
+        // console.log(fullname.toLowerCase())
+
+        // // indexOf - kiem tra 1 chuoi co namg trong chuoi khac ko
+        // // tra ve vi tri neu tim thay
+        // // khong thay tra ve -1
+        // var str = "i love you"
+        // var subStr = "love"
+        // // console.log(str.indexOf(subStr))
+        // // includes - kiem trai 1 chuoi co nam thong chuoi khac ko
+        // // neu tim thay - true
+        // // nguoc lai - false
+        // console.log(str.includes(subStr))
+
+        // //ham cat chuoi
+        // //slice (vi tri bat dau, vi tri ket thuc)
+        // console.log(str.slice(0,5))
+        // console.log(str.slice(4))
+        // console.log(str.slice(-1))
+        // // substring
+        // console.log(str.substring(0,5))
+
+        // // substr
+        // console.log(str.substr(2,2))
+    
+        // //trim - laoi bo khoang trong o dau va cuoi chuoi
+        // console.log(str.trim())
+
+        // // split: dung de chuyen tu string => array
+        // console.log(str.split(" "))
+
+        // //Number
+        // var num = 10
+        // var num1= 3
+        // console.log(num, num1)
+        // console.log(typeof num, typeof num1)
+        // console.log(num + num1)
+        // console.log(num - num1)
+        // console.log(num * num1)
+        // console.log(num / num1)
+        // console.log(num % num1)
+        // console.log(num ** num1) // => 10^3
+        
+        // // lam tron so
+        // // Math.cell lam tron len
+        // //Math .floor lam tron xuong
+        // // Math.round lam tron bth
+        // // Math.Min tim so nho nhat trong danh sach cac so
+        // console.log(Math.min(3,4,5,6,7,8,2))
+        // console.log(Math.max(2,3,1,4,5,3,7,8))
+        // // Math.random random 1 so (o,1)
+
+        // console.log(Math.random(0,1))
+        // console.log(Math.random(0, 1))
+        // console.log(Math.random(0, 1))
+        // console.log(Math.floor(Math.random()*6))
+
+        // //Boolean
+        // // // Chi co 2 gia tri : true hoac false
+        // var isStatus = true
+        // console.log(isStatus, typeof isStatus);
+        // console.log(!isStatus);
+
+        // Cau lenh dieu kien
+        // if else
+        // if(cau lenh dieu kien) {
+            //khoi lenh neu true
+        // }else{
+        //     khoi lenh neu false
+        // }
+        // var isStatus = false
+        // if(isStatus == true){
+        //     console.log("chao buoi sang")
+        // }else{
+        //     console.log("tam biet")
+        // }
+
+        // var score = 8
+        // if(score >= 8.5 && score <= 10){
+        //     console.log("Diem A");
+        // }else if(score > 7 && score <8.5){
+        //     console.log("Diem B");
+        // }else if(score >6  && score <7){
+        //     console.log("Diem C");
+        // }else {
+        //     console.log("Diem D");
+        // }
+
+        // //switch - case
+        // var month = 9
+        // switch(month){
+        //     case 1:
+        //         console.log("thang1")
+        //         break
+        //      case 2:
+        //         console.log("thang2")
+        //         break  
+        //      case 3:
+        //         console.log("thang3")
+        //         break    
+        //      default:
+        //          console.log("Khong xac dinh");
+        //          break     
+        //  }
+        // // array - mang
+        // var arr =[2,5,3,4,7]
+        // var arr1 = [1,4,5,76,8,"Ha Noi"]
+        //     console.log(arr1);
+        //     console.log(arr1[3]);
+        //     arr1[3]= "Hai Phong"
+        //     console.log(arr1);
+
+        //     arr1[4]= "Ho Chi Minh"
+        //     console.log(arr1);
+
+        //     console.log(arr1.length);
+
+        //     console.log(arr.concat(arr1));
+
+        //     //Them phan tu vao mang
+        //     //Them vao cuoi mang => push(new_item)
+
+        //     console.log(arr.push("Da Nang"))// tra ve do dai cua mang moi
+        //     console.log(arr)
+
+        //     //Them vao dau mang => unshift(new_item)
+        //     console.log(arr.unshift(true));
+        //     console.log(arr)
+
+        //     //Xoa phan tu cuoi mang => pop()
+        //     console.log(arr.pop()) // tra ve phan tu bi loai bo
+        //     console.log(arr)
+        //     //Xoa phan tu o dau mang => shift()
+        //     console.log(arr.shift())
+        //     console.log(arr)
+            
+        //     //indexOf()
+        //     console.log(arr.indexOf(6))
+
+        //     //includes()
+        //     console.log(arr.includes(6))
+
+        //     // slice
+        //     console.log(arr.slice(2,4))
+
+        //     //splice
+        //     console.log(arr.splice(0,4))
+            // var arr = [2, 5, 3, 4, 7]
+            //sort(fucntion)
+            //baitap ve nha
+            // console.log(arr.sort());
+
+            //reverse() - dao nguoc mang
+            // console.log(arr.reverse());
+            //---------------------
+            //for loop - Vong lap
+            // for, while, do- while, forEach, for..in, for..of,..
+
+            // for( gia tri khoi tao, dieu kien dung vong lap, buoc nhay)
+                //code ...
+            
+            
+            var arr =[ 2 , 5 , 3 , 4 , 7 , 30 , 6]
+            console.log(arr)
+            for(var i = 0; i < arr.length; i = i + 1){
+                //code
+                // console.log(arr[i])
+                // if(arr[i] > 10 && arr[i] %15 == 0){
+                //     console.log(arr[i])
+                // }
+                //break : thoat ra khoi vong lap
+                //continue: bo qua vong lap hien tai
+                // if(arr[i]== 4){
+                //     break
+                // }
+                // console.log(arr[i])
+                if (arr[i] == 4) {
+                    continue
+                }
+                console.log(arr[i])
+            }
+
+
+    </script>
+
+</body>
+
+</html>
