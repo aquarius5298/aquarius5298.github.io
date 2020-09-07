@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        body {
+            min-width: 1920px;
+            margin: 0px;
+            background-color: rgb(197, 194, 194);
+        }
+
+        .me {
+            margin-left: 40px;
+        }
+
+        section {
+
+            width: 1880px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .navitation {
+            position: relative;
+
+        }
+
+        .list {
+            list-style-type: none;
+            padding-left: 0px;
+            border: solid;
+            width: 200px;
+            border-width: 20px;
+            border-color: white;
+
+        }
+
+        .items {
+            text-align: center;
+            width: 200px;
+            height: 30px;
+            padding-top: 15px;
+            border: solid;
+            border-width: 1px;
+            border-color: white;
+            background-color: rgb(197, 194, 194);
+            transition-duration: 0.4s;
+        }
+
+        .items:hover {
+            background-color: rgb(208, 235, 250);
+        }
+
+        .aboutme {
+            text-decoration: none;
+            color: black;
+        }
+
+        .img {
+            width: 200px;
+            height: 300px;
+            background-color: white;
+            border: solid;
+            border-width: 20px;
+            border-color: white;
+            position: relative;
+        }
+        .img img{
+            width: 200px;
+            height: 300px;
+        }
+
+        .header {
+            margin-top: 30px;
+            margin-bottom: 7px;
+            font-size: 18px;
+        }
+
+        .contect {
+            width: 200px;
+            height: 100px;
+            background-color: white;
+            border: solid;
+            border-width: 20px;
+            border-color: white;
+
+        }
+
+        .social {
+            margin-top: 30px;
+        }
+
+        .contect a {
+            font-size: 20px;
+        }
+
+        .blog {
+
+            z-index: 10;
+            width: 1200px;
+            height: 732px;
+            margin-left: 300px;
+            margin-top: -732px;
+            background-image: url("3\ \(2\).jpg");
+            animation-name: example;
+            animation-duration: 7s;
+            animation-iteration-count: infinite;
+
+        }
+
+        @keyframes example {
+            0% {
+                background-image: url("3\ \(2\).jpg");
+            }
+
+            25% {
+                background-image: url("meo\ \(1\).jpg");
+            }
+
+            50% {
+                background-image: url("mon\ \(1\).jpg");
+            }
+
+            100% {
+                background-image: url("miu1\ \(1\).jpg");
+            }
+        }
+
+        .blog img {
+            width: 1200px;
+            height: 732px;
+        }
+
+        .blog-main {
+
+            display: grid;
+            grid-template-rows: repeat(3, auto);
+            grid-template-columns: repeat(3, auto);
+            row-gap: 20px;
+
+        }
+
+        .blog-main img {
+            width: 308px;
+            height: 300px;
+            border: solid;
+            border-width: 20px;
+            border-color: white;
+            margin-left: 30px;
+        }
+
+        .all-main {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .story {
+            width: 1200px;
+            background-color: black;
+            color: white;
+            font-size: 60px;
+            text-align: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            opacity: 0.7;
+            transition-duration: 1s;
+            position: absolute;
+            z-index: 11;
+            margin-left: 300px;
+            margin-top: -150px;
+        }
+
+        .story:hover {
+            background-color: rgb(208, 235, 250);
+            color: black;
+        }
+
+        .header-main {
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding: 10px 0 10px 0;
+            background-color: orange;
+            width: 200px;
+            text-align: center;
+            font-size: 30px;
+            margin-left: 30px;
+        }
+
+        .end {
+            font-size: 70px;
+            text-align: center;
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="me">
+            <nav class="navitation">
+                <ul class="list">
+                    <li class="items"><a href="btvn2.html" class="aboutme">
+                            GIỚI THIỆU </a></li>
+                    <li class="items" style=" background-color: rgb(208, 235, 250);"><a href="btvn3.html"
+                            class="aboutme"> BLOG </a></li>
+                </ul>
+                <p class="header">Img Next Page</p>
+                <div class="img"><img
+                        src="https://lh3.googleusercontent.com/9VCj5amR91DnW3SztIljjdi3wdGZc8r6RcWIWKgXw9pzgJwAO78d7zWRT4UMgY7YZDIUrVrvCEp-WgJNI32z941ioc2lZnGOfFs8RrXuMvM2Wzr6YwlPOBsezVFJtOFd1YwDE-8n1LmYmNXpb_YsZHIWq4XnjlLdIFyeo0JA00oAgfe7nGfi79nj_5zVDJn1KNvZP-UJKz160lIlAy3Qy42BCeTOnCT4AyH8mQ98ipFi70NpvTLh8cBIKLgkeOmGkIGtc0w2h7o1wGyQiB-bQAYvAyzoMZSskAkFn7yVLXkaY_RQLl7gbPV6Vzqv93RMA3ocLbJEYjF1oW8oIly_J30ZiN4JgsGfOqloWc50R5tj2w36g9OeIsXLqmJr6nj4qsnW-HHIbVqA3OZ2W299mD5LK00MZnlXJ4gRhsF3ZZxG3srxWCVLdXPDc-oJfb39wyOkrNvfl_Czegg5xjnra4vNCvFPr36D9pkd_grK0qWpvSMOTX_mK11VC6gsnCVm5FocT-rNtB4C1uO_BYcIaCib9VYUXC0_42bTSSuoHr55CiurUpfYnqVIGtcqFiOin5TrbueetGoTjnZ3fcIUkkmJJQRY6hIIalW7UWjGG7iofbeX4jmzNPtlXsbikP7DiOSFdjMEhUnphA3lT2U9l6hpPTeKST8HSxNYUfbTXm2iPodgdeUAEde2zkDP=w1350-h1312-no?authuser=0"
+                        alt=""> </div>
+                <p class="header">Social Netword</p>
+                <div class="contect">
+                    <div class="social">
+                        <a href="https://www.facebook.com/quangminh.pham.1276/"><i
+                                class="fab fa-facebook-square">quangminh.pham.1276</i></a>
+                        <a href="https://www.instagram.com/rin.ren.boi/"><i class="fab fa-instagram-square"
+                                style="color: orange;"> rin.ren.boi</i> </a>
+
+                    </div>
+                </div>
+                <div class="blog"></div>
+
+                <div class="story">TELL YOUR STORY</div>
+
+        </div>
+    </section>
+    <section>
+
+        <div class="all-main">
+            <div class="header-main">Your Blog</div>
+            <div class="blog-main">
+                <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-9/51573088_1240625776089568_6615628023989272576_n.jpg?_nc_cat=102&_nc_sid=e3f864&_nc_ohc=OZPQhnsorhwAX8X8kbl&_nc_oc=AQnLQQfFkE4-PjmrmNoXHlwYwlNwGFjskVwSYS9cF0daFWs4hO6MsebcVmKNnl6eUxU&_nc_ht=scontent.fhan2-1.fna&oh=e25f810f11ab4930cbc7e7c6f35b5a3f&oe=5F7964E5"
+                    alt="" class="items-blogs">
+                <img src="https://lh3.googleusercontent.com/S4CBGyVr8xmOQiIbyjfJ45kKX30zYjcFq-kFGG5vP84mvpds9Sr865d3lVXyICROQeL1UdvYEkr88_lV8ktaYGdKmt1Op30m9XJdzBRIjIUNeioXx_xxN71laUYdW3cBay2AwC6C3FdHoewMPJIl7G5DxB08ec8aVZv2AjeV8RV8gM4g6vgKFXQiJIel6X0YIiDwhSYdMnUUJsAa_RnKEX0dz0zJCU-qVlbooRQzmUrxfj1XVLdVvO4yb1i6L4q0SHSm969xf_kk0ixJYcWoN88SgGzVzYsqojOvJGa8qGRkgLHukomwnruSEb4VWeu4Ytb0d02HDZ9idwY6HjjQ71Zb-uEyfLj70g88lRyYQJmM4b086lB9yjzoc9NM-wk0Pmjvl6MwROXwni_s4Lb7ZEC-v1qBwzUSsBNkV3MRMGw3w4KeqV-T3SjrPTXQwg4TTJniidy1OTcazrng_Fbe5ttRO_DPw38xiED_genzJxs9FJmoA5tcfwEegFnnKfM3mRjBNQj7YZysMKxarLYmqIysgDyo3fpMiv3xTT3cYOVOws5qX0SqWYDurYndFPBh3p6jJnORW_5c4m_XKHQXXLplZG5OigNnNW5SSZI-zFAS0pfO2K9US37ZY-H11avrZPpxWXFn-Xz5FgWjRLVdLSypjgex46UZLX0Tbgri_X2jUpVegFn03LSUyRrA=w895-h671-no?authuser=0"
+                    alt="" class="items-blogs">
+                <img src="https://lh3.googleusercontent.com/tfUzE_BcBoy2UkRs4IoK1JQIAVvocGrDi_Qj2Q6pWMZi9fpMp6meVKk5UFWli6QMYFfPA_rhuUkDADObWavdxf7e5AawK0bkHbbQPYnoiaomb_AzxHiWygLvsDdZqW2ITuLAz0ORl06BpO-29FLaMJnleYKxG2Bsgnx9XifzjfonYc-vus2rm8Ac2O9HgDWvHyKlfLL-bIM-FpmblSQbKEsqrjtjX3Qpl0578fxuTC5_JmmodfJBTXS81_mEILE3MX24uy57ASvxs98mQ6IeKN4Jb_SdBV4V29O5sfFN-QB5s2dPj0Ho21ZNfj4VOhvRmlU4bPs3zOmbyU0h-URQ39YSv1a-J0QdNEPWPTgwrgNK-IV2ijVeiNNqzOAOGUXV0-76ptN-1WVCyRHGLW_24JmxOmNOZhCkpW4mvmJoqFVAQ9c3QTFKuIfDj72s39DRx_ZrpuEDSClUaH33Axz-KqNU688jIo_FSUJ-MW70hjeUiiZnukZ0IxXMo43vjHNnOMgXf9opHjcuFVfpxb8EXksMj9qDN1m2nOfQ7vjQlsuLwAaY7_z8wF3L-8VovfPbfyvEmohI9gC5dtoua0qz8uYGcTE6GeGN0mmTKm5_jBtfqbb6hwgcAwnUlDqW-5EI4GuHYZQ3lNZ6YOD0wU8sclve3ck8yRlN7Clmx58MEbc_jgx9OX4MeKTaX5Gc=s488-no?authuser=0"
+                    alt="" class="items-blogs">
+                <img src="https://lh3.googleusercontent.com/EK66wDfQj7ZqdPnZ7t5TlaUNVHjmQ5OFfhLjBUNH8DZmZBF3Y7aj4pbbqwUYopMAWxejCS5e1zNGifbGVtqyfo65a1sOWXo6aRistFd8wnMJw0bGGKQHQH8jgE4Y_XB5vjlULZfOmGiO7rzqhNjr9lLNAM5Zj1Jc4X8jdpU_0wRc7u5SAIBiAMaBRBRitqw0Vr02ySIIoYhVzADAOk2uvX13fJmZYHvTZl6sgwuoDWl4t7ERL-eVAnEWSGx42UDPu8dm26X3R-LcqIw_shoqsDk11dZm6-UdMY90ocbTMTzl43SrLLnSgLtazH4J3sY64nal7LdCaQH6CzGzxEW9jStnRlCXB0payh6dxO-5vu_xnZiiQBb2usqTgn26IxnQAhxAotY4qJeUDrWfdALkPl3HN6Ex4PmRHIHE1z53zFMhicQK2ITPyYCT3X6LwNSX05mWE6OL9fEsqg8ms1eIQCxHvwjm8NS7wHqo1IYVua7l_1xk5435V17IaC9msgHK-vuGYR8WyYzAOXrmJYOJhlBkjgS3aGIazKJfI5kyc5Xvqg8uih8q2r4i43CD5hG9uOYeO0jl4UQ3_KbE1vD5iloZtjNscj7Fa4baf0R6tMamBfOCrZcqKpCupy81V69NiIEjPyuj8CdHEBNhPQkCryTjwmvHzRuCw4Wdcs8-Ob2uRpvAMsoF3xYPCEC-=w378-h671-no?authuser=0"
+                    alt="" class="items-blogs">
+                <img src="https://lh3.googleusercontent.com/cNljhQt_zN3vXikJWxm8NhddJP1PJf8Pcuv9426SQ_MKI_lINJlI546m_z70LU2CSW9wBvO7UDuVHB_LBUS0yp51_knpzRVzGEIgf1RwLV_h__RO_K0NhYiR7xPwJ2tTIyXPWezJGuDax96zLgx9uoYidhLuUpyKKLIY6q0-ABr-CB3FnD1naMoUVRM9Q1hyBVYayBiA4cdrEvHjoGmhSHeaER3C8_fmP4-2yPR85mQa9itlKYryfuzL7OSbuOMRCA9r2SNJzc82kiu79NvCenaKFfnHHr4ih-UCp48lJtdTCxkI_RFCgN9RTUaN3UG2dlUCP_avaKgsJgTbjhM3g-S04hAk20fqTjjVn-5xT3Nsnz_cV0jvSNx_BUam-OjXfDU1m8zTsq0SsiyICfGRhPTjwDnZmmaEfiH9raUBtGKNMFRs0CZbjtjfKn_Xu5XZ2LCB4LtjqC6QemvFEoK1zV9YX8phz3vh3yAoaankUnT7sBspU9SAxz74m5v5gHkmAhgpMDByDyxS4KiXE3S2wPsbALn5C4kx_nVQn5H59XiOMtOjG3pEnMi-86s4UZiVc8D_Bbpc4aNVDJ6H2NUnvY6dZ2yWoanw-wSPn2IKmci_T-K5nsVG5EPBJY6RTSwIwiwqUdAkp7sZ1J_w0HUvCio9K3bER_NSR0BvkVRarP78IOyYTAcrE6GaD4Za=s671-no?authuser=0"
+                    alt="" class="items-blogs">
+                <img src="https://lh3.googleusercontent.com/76ZaqdFTqFD1vxxyU8CD8vdxlGhId0mWWqJ7tMxXk26QjXU6JD3saEaJEPMaTQvstKpkjGhbICh3otc1tgXhyAyljfk8fEYVXNf0R791EXiSaLs1fVDKd7PouXfM5KxqEZTsjSOou26MSvHf5MRQMAPySWdCD8mQ3BeHQqdBPAEBHWZzn7eTXgWW96aXt6WW2_jzsegt4ffIuQ9e9RMRhhYrKbPESwchs_GHxjCjWlRUA8_EERKmjJjSKj28c-g89E-NIn3fyKj7y7hT0po3v5axTl5VmN8bvv29ndpvrpU2ZDl4YmgKGDLJ8JI0wulWWeksbmSLtnhniLFuR-DxZ7V2j58xNJvfY2ifp7TOCdNFXHXdbULYWvPJYSc492Hc4FMkf4Kd9SojCOHWIUN2GNGP_TicNcxPNuNf1us7eh7s-yiHuHmsPYMo__huy3FYjDGdDn316m_RlWugs1RFvGy5O6NzOyXPjL4BvbpWugBewnkGqOSrcpZYl7j5n_Nw1b1iBiswDNQ6-Zf9AD9vhi4bcViezqtisH3oiIYTu25Eg6fv_19wGSqBGH3eTv-ScHwpjpivlzAXuRJSp1LcAFrh3OGPROt_HoxylwDtI6X4BpXyd_zdZGPIHt7FRvcQvqQwPITTYxO4f1Bqfbr-vzgbd2q1XB-ryPZ5PReN50NOn4ulpXuu1GvRG9W8=w504-h671-no?authuser=0"
+                    alt="" class="items-blogs">
+                <img src="https://lh3.googleusercontent.com/uGQ-hZugzg_UXfStcD4SXS6qLZ1GAJsoaXdyvzy_WFtksno1RJMifhWSxWWbOCQfwi6Vp_q9XhvptN1IDUJTWTRRESK2kPjByzeVKLHwik9vuXp8L39cS2YNeQXNd6mqB1ufgCm7b5RqvoC-ug6cEfSflObwpLi8hkPPZqF7sw4F8UbDDq7I4EAsDXdXr9nRvBLz167pQIbuu4UcxkBsZR_S8-EfifkVJij-zkhl9PFGTWa4hfx_iyXLSewRRLNN2ht_thVi17ZChx8GC8Pjt9mV0Vl7QzEUxrv7F9Ayscp-miZjt8WLjFr2E0GjDmsNj-34yRZwnM7NoMdcDP1sSxq5C8x1ErpYLeKVF0pZiipiYsgFkdMReFVuLlbji8ZwbGr9nHReGCwernpgUHpk6Lr4g__oae9AEaQv5blZw0prO6pPwf0P6TcS1OI6zYQ-u3ht_qoEYbBjZApF8jq9k_KVjK3aIoXbiC1z5FLVOoJOKLZ485neUzjZDSuq2B-K9jpBkOA3DpEcH9QKjmno9ytRHawGgVfIgH8K8nk-4h3iChXnKq4ExGpY0d659DkT-UAWm0OpksZW4DdTIn9R6bXfXvXc-MXGqcO7r0EUNJ--S5EAp-Ki0Hr_TVoTd6MQbx-0GIyfHog2h087K6bSyQql3XXMzvwDYd7h3ta1V6jqwHGXv9eHxhgcb3pL=w895-h671-no?authuser=0"
+                    alt="" class="items-blogs">
+                <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t1.0-9/11044523_451690654983088_3093009505694224475_n.jpg?_nc_cat=101&_nc_sid=19026a&_nc_ohc=zxAMV41PNk8AX-Ud65D&_nc_ht=scontent.fhan2-1.fna&oh=22c768a472a3fe8ad6f43233e1e4761e&oe=5F7C50C3"
+                    alt="" class="items-blogs">
+                <img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/97998125_1660345530784255_4606350071317921792_o.jpg?_nc_cat=106&_nc_sid=09cbfe&_nc_ohc=lSqTUKgnhg0AX-HPBu2&_nc_ht=scontent.fhan2-2.fna&oh=a00553c107847f3f1c29dd5e1b95ffd8&oe=5F7AB8F9"
+                    alt="" class="items-blogs">
+            </div>
+        </div>
+    </section>
+    <div class="end">
+        <a href="btvn.html"> <i class="fas fa-home"></i></a>
+</body>
+
+</html>
